@@ -9,14 +9,14 @@
     <nav>
       <div class="left-side">
         <a href="index.html">
-         <div class="logo"><a href=''>NeoCultureTech</a></div>
+          <div class="logo"><a href="index.html"><img src="dumbways.png" ></a></div>
         </a>
         <ul>
           <li>
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="blog.html">My Project</a>
           </li>
         </ul>
       </div>
@@ -24,8 +24,8 @@
         <a href="contact.html"> Contact Me </a>
       </div>
     </nav>
-
-    <!-- Form Contact -->
+       <div>
+   <!-- Form Contact -->
     <div class="form-contact">
       <div class="container-form">
         <form>
@@ -56,9 +56,21 @@
             <label for="message">Your Message</label>
             <textarea id="input-message"></textarea>
           </div>
-          <button>Submit</button>
+          <button
+          style="
+          padding: 8px 30px;
+          font-size: 17px;
+          background: #0e0d0d;
+          border-radius: 20px;
+          margin-left: 300px;
+          border: none;
+          color: #fff;
+          cursor: pointer;
+          " onclick="submitForm()">Submit
+        </button> 
         </form>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-const emailReciver = "rhomairama.dev@gmail.com";
+const emailReciver = "dewinuramalia.05@gmail.com";
 
 let name = document.getElementById("input-name");
 let email = document.getElementById("input-email");
